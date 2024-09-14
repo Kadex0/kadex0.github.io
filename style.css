@@ -12,6 +12,10 @@ h1{
 
 }
 
+#h2{
+    margin-left: 20px;
+}
+
 body > header > nav> ul{
     margin: 0px;
     text-decoration: none;
@@ -37,6 +41,19 @@ body > header > nav> ul{
     border-radius: 12%;
 }
 
+#section1{
+    border: solid black 3px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+#section2{
+    border: solid black 3px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: bisque;
+}
+
 body > main article{
     width: 70%;
     margin: auto;
@@ -53,10 +70,12 @@ body > main article{
 
 form{
     text-align: center;
+    background-color: antiquewhite;
+    margin-top: -70px;
 }
 
 body > header{
-    background-color: orange;
+    background-color: rgb(195, 130, 44);
     color: white;
     display: flex;
     height: 11vh;
@@ -65,8 +84,10 @@ body > header{
 }
 
 body > footer{
-    background-color: orange;
+    margin-top: -17.5px;
+    background-color: rgb(195, 130, 44);
     display: flex;
+    justify-content: space-evenly;
 }
 
 img{
@@ -76,6 +97,7 @@ img{
 #footer-ul{
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 
 #footer-ul > div > li{
